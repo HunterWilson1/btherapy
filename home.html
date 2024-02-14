@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <title>Therapist Portfolio</title>
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>Therapist Portfolio</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <div class="grid">
+            <section>
+                <hgroup>
+                    <h2>Welcome to My Therapy Practice</h2>
+                    <h3>Empowering You Toward Healing and Growth</h3>
+                </hgroup>
+                <p>I am dedicated to providing a safe, compassionate, and confidential environment for all my clients. My approach is holistic, focusing on all aspects of well-being: mental, emotional, physical, and spiritual. I specialize in cognitive behavioral therapy, mindfulness, and stress management techniques to help you navigate life's challenges.</p>
+                <figure>
+                    <img src="https://source.unsplash.com/featured/?therapy" alt="Therapist Office" />
+                    <figcaption>Photo by Unsplash</figcaption>
+                </figure>
+                <h3>Professional Background</h3>
+                <p>With over a decade of experience in the field of mental health, I hold a Master's degree in Psychology and am a licensed therapist. My practice is built on the principles of empathy, understanding, and respect for the individual journeys of my clients.</p>
+                <h3>Services Offered</h3>
+                <p>From individual therapy sessions to couples counseling, my services are tailored to meet the unique needs of each client. I believe in the power of therapy to transform lives and am committed to guiding my clients through their personal growth and healing processes.</p>
+            </section>
+        </div>
+    </main>
+    <section aria-label="Subscribe example">
+        <div class="container">
+            <article>
+                <hgroup>
+                    <h2>Get In Touch</h2>
+                    <h3>Start Your Journey Today</h3>
+                </hgroup>
+                <form class="grid">
+                    <input type="text" id="firstname" name="firstname" placeholder="Your Name" aria-label="Your Name" required />
+                    <input type="email" id="email" name="email" placeholder="Your Email" aria-label="Your Email" required />
+                    <button type="submit" onclick="event.preventDefault()">Submit</button>
+                </form>
+            </article>
+        </div>
+    </section>
+    <footer class="container">
+        <small><a href="#">Privacy Policy</a> • <a href="#">Terms of Service</a></small>
+    </footer>
+</body>
+</html>
